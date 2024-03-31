@@ -1,0 +1,123 @@
+[
+  {
+    "id": "history",
+    "title": "Iglesia de Nuestra Señora de las Victorias",
+    "imgSrc": "src/img/04.jpg",
+    "description": "Known as the Church of Our Lady of Victories, is a significant landmark in Tetouan, reflecting its rich cultural heritage.",
+    "rating":3.5,
+    "score": "120"
+  },
+  {
+    "id": "beach",
+    "title": "Oued Laou Beach",
+    "imgSrc": "src/img/1616424528801.jpg",
+    "description": "Oued Laou Beach offers serene coastal views and is a popular spot for relaxation and water activities in Tetouan.",
+    "rating":3.5,
+    "score": "420"
+  },
+  {
+    "id": "beach",
+    "title": "Capo negro Beach",
+    "imgSrc": "src/img/EYDzRwfXYAYmzMF.jpg",
+    "description": "Capo Negro Beach is renowned for its picturesque shores and tranquil ambiance, attracting visitors seeking sun, sand, and sea.",
+    "rating": 1.5,
+    "score": "320"
+  },
+  {
+    "id": "res",
+    "title": "Riad Tetuanía",
+    "imgSrc": "src/img/90518630.jpg",
+    "description": "Offers traditional Moroccan hospitality in a charming setting, providing guests with an authentic cultural experience.",
+    "rating": 4.5,
+    "score": 590
+  },
+  {
+    "id": "res",
+    "title": "Riad Tetouan",
+    "imgSrc": "src/img/413657270.jpg",
+    "description": "Blends modern comfort with traditional Moroccan architecture, offering guests a relaxing stay in the heart of the city.",
+    "rating": 3.5,
+    "score": "320"
+  },
+  {
+    "id": "History",
+    "title": "Dar dbagh",
+    "imgSrc": "src/img/Curtume-Tetouan-Tanneries-1024x683.webp",
+    "description": "A historical site showcasing Tetouan's leather tanning industry, providing insight into the city's economic and cultural heritage.",
+    "rating": 1.5,
+    "score": "340"
+  },
+  {
+    "id": "History",
+    "title": "Royal Palace",
+    "imgSrc": "src/img/25991063371_27b765397a_b.jpg",
+    "description": " stands as a symbol of Tetouan's royal history, offering visitors a glimpse into the city's regal past and architectural grandeur.",
+    "rating": 4.5,
+    "score": "500"
+  },
+  {
+    "id": "museum",
+    "title": "Modern Art Center of Tetouan",
+    "imgSrc": "src/img/13825497-Modern-Art-Center-of-Tetouan-Tetouan-Morocco.jpg",
+    "description": " showcases contemporary artistic expressions, contributing to the city's vibrant cultural scene.",
+    "rating": 5.5,
+    "score": "600"
+  },
+  {
+    "id": "nature",
+    "title": "bouanane",
+    "imgSrc": "src/img/tumblr_oud9q5stjF1t1av35o1_1280.jpg",
+    "description": "scenic natural landscapes and is a popular destination for outdoor enthusiasts and nature lovers in Tetouan.",
+    "rating": 4.5,
+    "score": "550"
+  },
+  {
+    "id": "nature",
+    "title": "zarka",
+    "imgSrc": "src/img/images.jpeg",
+    "description": " a tranquil retreat surrounded by lush greenery, providing visitors with a peaceful escape from the hustle and bustle of city life.",
+    "rating": 2.5,
+    "score": "300"
+  },
+  {
+    "id": "Museum",
+    "title": "Dar El Oddi",
+    "imgSrc": "src/img/the-ehnographic-museum-2.jpg",
+    "description": " an ethnographic museum that preserves and showcases Tetouan's cultural heritage through its diverse collection of artifacts and exhibits.",
+    "rating": 3.5,
+    "score": "470"
+  },
+  {
+    "id": "Museum",
+    "title": "Dar El Oddi",
+    "imgSrc": "src/img/Carrusel-servicio-1.jpg",
+    "description": " offers visitors an immersive journey into Tetouan's past, highlighting the city's rich history and cultural traditions.",
+    "rating": 5.5,
+    "score": "600"
+  },
+  {
+    "id": "res",
+    "title": "Cafe Flower",
+    "imgSrc": "src/img/60206699-44086200.jpg",
+    "description": "Cafe Flower is a cozy establishment where visitors can enjoy delicious Moroccan cuisine and aromatic teas in a relaxing atmosphere.",
+    "rating": 2.5,
+    "score": "600"
+    
+  },
+  {
+    "id": "others",
+    "title": "Feddan Park",
+    "imgSrc": "src/img/feddan-park-tetouan.jpg",
+    "description": "Feddan Park is a green oasis in Tetouan, offering locals and tourists a serene environment for picnics, leisurely strolls, and recreational activities.",
+    "rating": 1.5,
+    "score": "360"
+  },
+  {
+    "id": "others",
+    "title": "Hassan II Square",
+    "imgSrc": "src/img/22101864.webp",
+    "description": "Hassan II Square is a central plaza in Tetouan surrounded by shops, cafes, and historical buildings, serving as a bustling hub of activity and commerce.",
+    "rating": 4.5,
+    "score": "620"
+  }
+]

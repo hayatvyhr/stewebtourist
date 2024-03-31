@@ -1,0 +1,17 @@
+.p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    }
+    
+    .d1 { grid-area: 1 / 1 / 2 / 3; 
+    
+    }
+ 
+    .d2 { grid-area: 2 / 1 / 3 / 2;
+    margin-left: 19rem; }
+    .d3 { grid-area: 2 / 2 / 3 / 3; 
+    margin-right: 22rem;
+    
+    }

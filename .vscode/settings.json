@@ -1,0 +1,5 @@
+{
+    "liveshare.accessibility.voiceEnabled": true,
+    "liveshare.diagnosticLoggingLevel": "Warning",
+    "liveshare.languages.allowGuestCommandControl": true
+}
