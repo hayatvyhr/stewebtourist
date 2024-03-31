@@ -1,0 +1,80 @@
+[
+  {
+    "ID": 1,
+    "name": "Alae",
+    "prenom": "Saidi",
+    "score": 3,
+    "price": 300,
+    "job": "Teacher",
+    "ville": "Tetouan",
+    "img": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=996&t=st=1711555336~exp=1711555936~hmac=31682659ea774110bc2322127f33bc6967884f9f9a43a4fb1c5c7ee181af5d0f",
+    "Followers": 200,
+    "comments": 120,
+    "tasks": 40
+  },
+  {
+    "ID": 2,
+    "name": "John",
+    "prenom": "Doe",
+    "score": 4,
+    "price": 250,
+    "job": "Tour Guide",
+    "ville": "Tetouan",
+    "img": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8yX3Bob3RvX29mX2FfYmxhY2tfYnVzaW5lc3NtYW5faXNvbGF0ZWRfb25fb2ZmX19lZmMxZDllNC1iNzQ5LTQ2NzMtYjRmMS1lYjI0NTBiYzNiOGRfMS5qcGc.jpg",
+    "Followers": 300,
+    "comments": 120,
+    "tasks": 40
+  },
+  {
+    "ID": 3,
+    "name": "Alice",
+    "prenom": "Smith",
+    "score": 5,
+    "price": 400,
+    "job": "Student",
+    "ville": "Tetouan",
+    "img": "https://img.freepik.com/free-photo/happy-dark-skinned-girl-enjoys-every-moment-life-dances-moves-raises-arms-clenches-fists-closes-eyes-has-good-mood-wears-denim-sarafan-turtleneck-isolated-pink-wall_273609-42165.jpg?w=996&t=st=1711555597~exp=1711556197~hmac=48c232e30ee21537dbfadef8b8638bc2dbf6ef8b81ef4878181a454586bd65c0",
+    "Followers": 100,
+    "comments": 20,
+    "tasks": 23
+  },
+  {
+    "ID": 4,
+    "name": "Mohammed",
+    "prenom": "Ahmed",
+    "score": 4.5,
+    "price": 350,
+    "job": "Teacher",
+    "ville": "Martil",
+    "img": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=996&t=st=1711555336~exp=1711555936~hmac=31682659ea774110bc2322127f33bc6967884f9f9a43a4fb1c5c7ee181af5d0f",
+    "Followers": 400,
+    "comments": 324,
+    "tasks": 310
+  },
+  {
+    "ID": 5,
+    "name": "Fatima",
+    "prenom": "Zahra",
+    "score": 4,
+    "price": 280,
+    "job": "Artist",
+    "ville": "Casablanca",
+    "img": "https://img.freepik.com/free-photo/young-woman-standing-front-paintings_53876-28397.jpg?size=626&ext=jpg",
+    "Followers": 500,
+    "comments": 150,
+    "tasks": 50
+  },
+  {
+    "ID": 6,
+    "name": "Abdullah",
+    "prenom": "Omar",
+    "score": 4.2,
+    "price": 320,
+    "job": "Engineer",
+    "ville": "Rabat",
+    "img": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1711411200&semt=ais",
+    "Followers": 450,
+    "comments": 200,
+    "tasks": 70
+  }
+]

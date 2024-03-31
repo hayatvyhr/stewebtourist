@@ -7,7 +7,10 @@ import "./home.css";
 import jsonData from "./cards.json"; 
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
+import Cards from './guides/guide_top'
+import waves from './guides/img/waves_top.png';
 
+import ReactSpringCarousel  from './guides/ReactSpringCarousel'
 
 
 export const Home = () => {
@@ -34,12 +37,12 @@ export const Home = () => {
       if ((containerTop > 0 && containerTop < windowHeight) || (containerBottom > 0 && containerBottom < windowHeight)) {
         controls.start({
          
-          scale: [ 1, 0.8, 1],
-          borderRadius: [ "50%", "50%", "20%"],
+          scale: [ 0.8, 1],
+          borderRadius: [  "50%", "50%"],
 
           opacity: 1, 
           transition: {
-            duration: 3, // Duration of the animation
+            duration: 1, // Duration of the animation
           }
         });
       } 
@@ -76,7 +79,9 @@ export const Home = () => {
             <h1>Welcome to </h1>
             <h1 style={{color:'#2BF1C4'}} >Tetouan</h1>
             <p>The heart of Moroccan culture and history</p>
-            <button>Explore Tetouan</button>
+            <Link to="/Places" className=""><button className="button__text">Explore Tetouan</button></Link>
+
+            
           </div>
           <div className="image-container">
             <img src="src/img/img2.png" alt="Tetouan city image" />
@@ -84,18 +89,33 @@ export const Home = () => {
           </div>
         </div>
       </section>
+
+      <section className="about-city-section "  >
+        {/* <img src={waves} alt="" /> */}
+        <div className="section1">
+                <h1>ABOUT THE CITY</h1>
+                <p>Nestled in northern Morocco, Tetouan beckons with its enchanting blend of history, culture, and natural beauty. Known as the "White Dove" for its whitewashed buildings, the city's UNESCO-listed medina is a maze of narrow streets, bustling souks, and hidden squares, offering a glimpse into its Andalusian heritage. </p>
+        <ReactSpringCarousel />
+   <carsoul/>
+
+              </div>
+
+
+      </section>
+
+
       <section className="section py-2">
-      <motion.div
+      <div
       className="container" animate={controls}
       >
         <div className="paragraph-container">
           <p className="white-text">Discover Tetouan's charm as you wander through its ancient Medina, a UNESCO World Heritage site filled with Andalusian architecture and vibrant markets. Immerse yourself in the city's rich history. With stunning landscapes nestled in the Rif Mountains, Tetouan beckons nature enthusiasts to explore its picturesque surroundings.</p>
         </div>
-        <div className="parent1 mt-4 py-2">
-          <div className="div1">
+        <div className="pc1 mt-4 py-2">
+          <div className="d11">
             <h3 style={{ color: '#000742'}}>Best places to visit In Tetouan</h3>
           </div>
-          <div className="div22">
+          <div className="d22">
             <Link to="/Places" className="btn btn-outline-primary">Explore All</Link>
           </div>
         </div>
@@ -105,6 +125,7 @@ export const Home = () => {
             <motion.div
               key={index}
               className={`col-sm-3`}
+              animate={controls}
           
             >
               <div className={`card ${expandedCardIndex === index ? 'expanded' : ''}`} onClick={() => toggleCard(index)}>
@@ -124,14 +145,23 @@ export const Home = () => {
             </motion.div>
           ))}
         </div>
-      </motion.div>
+        </div>
+   
     </section>
+
+
+    <section className="guide-section " >
+  
+          <Cards/>
+
+      </section>
+
       <section className="about py-7 ">
-      <div class="pabout">
-  <div class="diva1">            
+      <div className="pabout">
+  <div className="diva1">            
     <h1 style={{ color: "#000742", textAlign: "center", fontSize: "2em", fontWeight: "800", fontFamily: "Arial, sans-serif" }}>About Us</h1>
   </div>
-  <motion.div animate={controls} class="diva2"> 
+  <motion.div animate={controls} className="diva2"> 
     <img src="src/img/about.jpg" alt="" width={400} style={{ marginLeft: '5rem' }} />
     </motion.div>
   <div class="diva3">     

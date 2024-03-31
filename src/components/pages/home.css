@@ -1,12 +1,17 @@
-.parent1 {
+.pc1 {
     display: grid;
-    grid-column-gap: 70rem;
+    grid-template-columns: 7fr 2fr;
+    grid-column-gap: 50rem;
     grid-row-gap: 0px;
  
     }
     
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div22 { grid-area: 1 / 2 / 2 / 3; }
+    .d11 { grid-area: 1 / 1 / 2 / 2;  color: #000742;
+   
+
+ }
+
+    .d22 { grid-area: 1 / 2 / 2 / 3; }
     .card {
         transition: transform 0.3s ease-in-out;
         cursor: pointer;
@@ -63,35 +68,53 @@
 
       .welcome-section {
         /* background-color: #e0e8f0; */
-        padding: 50px 0;
+        /* padding: 50px 0; */
         text-align: center;
-    
+        margin-top: 35px;
         position: relative;
         position: relative; /* Add position relative to the section */
         z-index: 1;
         margin-bottom: 50px; 
       }
       
-      .container_s1 {
+      .welcome-section   .container_s1 {
         display: flex;
         justify-content: space-between;
         align-items: center;
         max-width: 1000px;
         margin: 0 auto;
       }
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
       
+      .welcome-section h1{
+        animation: pulse 2s infinite; 
+      }
+      .welcome-section h1{
+        font-size: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
       .welcome-text-container {
         flex: 1;
         font-size: 20px;
       }
       
-      h1 {
+    .welcome-section  h1 {
         font-size: 3em;
         margin-bottom: 15px;
       }
      
       
-      button {
+      .welcome-section   button {
         background-color: #1976d2;
         color: white;
         padding: 10px 20px;
@@ -100,27 +123,27 @@
         cursor: pointer;
       }
       
-      button:hover {
+      .welcome-section  button:hover {
         background-color: #0067c2;
       }
       
-      .image-container {
+      .welcome-section  .image-container {
         flex: 1;
         text-align: right;
         height: 50%;
       }
  
       
-      .border_top{
+      .welcome-section   .border_top{
    
         width:  10%;
         position: absolute; /* Position the image absolutely */
-        top: 40px; /* Align to the top of the section */
-        left: 60px;
+        top: -10px; /* Align to the top of the section */
+        left: 90px;
         z-index: -3;
       
       }
-      .border_under{
+      .welcome-section .border_under{
         width:  10%;
         position: absolute;
         bottom: -20px;
@@ -133,8 +156,8 @@
       }
       
       section{
-        margin-top: 3.9rem;
-        margin-bottom: 3,5rem;
+      /* transform: translateY(280px); */
+        margin-bottom: 90px;
       }
 
       .pabout {
@@ -154,3 +177,46 @@
       
         margin-right: 7rem;
         }
+
+
+        .about-city-section{
+          /* transform: translateY(200px); */
+                    transform: translateY(100px);
+                    
+
+          margin-bottom: 100px;
+
+        }
+        .about-city-section img{
+          width: 195vh;
+      }
+      .about-city-section h1{
+        color: #000742;
+        font-size: 3rem;
+        font-family: Arial rgb(11, 13, 39);
+        margin: 30px;
+        font-weight: 600;
+
+    }
+    .about-city-section p{
+      color: #000742;
+      font-size: 1rem;
+      font-family: Arial, sans-serif;
+      margin: 30px;
+
+  }
+      .section1{
+        background-color: #D6F8E5;
+        height: 80vh;
+margin-bottom: 50px;
+      width: 180vh;
+      margin-left: 4%;
+      /* margin-right: 2%; */
+        overflow-x: hidden;
+        border-radius: 30px;
+      }
+      
+
+
+
+      

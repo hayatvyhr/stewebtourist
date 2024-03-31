@@ -1,0 +1,272 @@
+body{
+  background: white;    
+  overflow: auto;
+}
+a {
+  color: #f96332;
+}
+.m-t-5{
+  margin-top: 5px;   
+}
+.row{}
+/*  */
+ .guide-component a{
+  color: #f96332;
+}
+.profile-page .card {
+  background: #fff;
+  margin-bottom: 10px;
+  transition: .5s;
+  border: 0;
+  border-radius: 40px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  box-shadow: none;
+  width: 70%;
+  height: auto;
+  
+
+}
+.profile-page .card .body {
+  font-size: 14px;
+  color: #424242;
+  padding: 20px;
+  font-weight: 400;
+}
+.profile-page .profile-header {
+  position: relative
+}
+
+.profile-page .profile-header .profile-image img {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 10px;
+  border: 3px solid #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+}
+
+.profile-page .profile-header .social-icon a {
+  margin: 0 5px
+}
+
+.profile-page .profile-sub-header {
+  min-height: 60px;
+  width: 100%
+}
+
+.profile-page .profile-sub-header ul.box-list {
+  display: inline-table;
+  table-layout: fixed;
+  width: 100%;
+  background: #eee
+}
+
+.profile-page .profile-sub-header ul.box-list li {
+  border-right: 1px solid #e0e0e0;
+  display: table-cell;
+  list-style: none
+}
+
+.profile-page .profile-sub-header ul.box-list li:last-child {
+  border-right: none
+}
+
+.profile-page .profile-sub-header ul.box-list li a {
+  display: block;
+  padding: 15px 0;
+  color: #424242
+}
+
+ .guide-component {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  background-color: #D6F8E5;
+   border-radius: 20px;
+   padding-top: 20px;
+   transform: translateY(-300px);
+}
+
+.buttons{
+  margin: 15px;
+
+}
+.profile-page .card {
+  transition: transform 0.3s ease;
+}
+
+.profile-page .card:hover {
+  transform: scale(1.05);
+}
+
+.profile-page .info{
+  text-align: left;
+}
+
+.btn-profil{
+  margin-top: 30px;
+}
+
+.btn-profil,
+.btn-contact {
+
+  width: 100%; /* Makes the buttons take up the full width of their container */
+  padding: 10px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px; /* Adds rounded corners to the buttons */
+  cursor: pointer;
+  margin-bottom: 10px; /* Adds some space between the buttons */
+}
+
+.btn-profil {
+  background-color: #000742; /* Change to desired color */
+  color: #ffffff; /* Change to desired text color */
+  width: 100px;
+  border-radius: 30px;
+}
+
+.btn-contact {
+  background-color: #e74c3c; /* Change to desired color */
+  color: #ffffff; /* Change to desired text color */
+  width: 100px;
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* filter  */
+.filter-area {
+  background-color: #ffffff; /* White background color */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the background image */
+  width: 100%;
+  height: 80%;
+}
+
+
+
+
+.filter-box {
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000742;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    margin-left: 300px;
+    transform: translateY(-300px);
+}
+
+
+
+.filter-area h5 {
+  margin-bottom: 10px;
+}
+
+.filter-area .icon{
+color: white;
+}
+
+.filter-area p{
+  color: white;
+  margin-top: 10px;
+  }
+
+.filter-area select {
+  width: 150px;
+  padding-left: 10px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin: 10px;
+}
+
+.filter-area select:last-child {
+  margin-bottom: 0;  
+}
+.filter-icon{
+  display: flex;
+  margin-right: 30px;
+}
+
+.filter-btn{
+  background-color: #2BF1C4;
+  border-radius: 30px;
+  width: 90px;
+}
+
+
+
+
+/* image-animation */
+
+.image-animation{
+  border-radius: 50%;
+  width: 200px;
+  /* Adjust margin if needed */
+}
+.img-container {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+
+#img1{
+  animation: fadeInOut 4s infinite alternate;
+  width: 20%;
+  margin-right: 1000px;
+}
+#img2{
+  animation: fadeInOut 6s infinite alternate;
+  width: 15%;
+  margin-left: 1000px;
+  transform: translateY(-250px);
+}
+
+
+/* .fade-in-image {
+  animation: fadeInOut 5s infinite alternate;
+}*/
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} 
+
+.image-guide{
+  transform: translateY(-300px);
+  width: 50%;
+  
+}
+
+.img-filter p{
+color: black;
+}
+
+.img-filter h1{
+    animation: pulse 2s infinite; 
+   margin-top: 30px;
+}

@@ -1,0 +1,234 @@
+/* .card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+img{
+  width: 30%;
+  height: 60%;
+}
+ */
+ /* .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+/* .card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px; */
+  /* width: calc(25% - 20px); Two cards per row by default */
+/* } */
+
+/* .card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+} */
+
+/* @media (max-width: 767px) {
+  .card {
+    width: calc(100% - 20px); /* Full width on smaller screens */
+  /* }
+} */ 
+
+h1{
+  color:#000742 ;
+  text-align: center; /* Center the text horizontally */
+  font-size: 36px; /* Adjust font size as needed */
+  font-weight: bold; /* Apply bold font weight */
+  margin-bottom: 20px;
+}
+.container { 
+  /* display: grid;  */
+  place-items: center;
+  margin-inline: 1.5rem;
+  padding-block: 5rem; 
+  padding: 5%;
+  background-color: #D6F8E5;
+  border-radius: 30px; 
+
+}
+.card_container {
+  display: grid; 
+  display: flex;
+  row-gap: 3.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.card_article {
+  position: relative; 
+  overflow: hidden;
+}
+.card_img {
+  width: 328px;
+  border-radius: 1.5rem; 
+  position: relative; 
+  height: 300px;
+  z-index: 1; /* Set a lower z-index value */
+} 
+.card_data {
+  width: 95%; 
+  background-color: white; 
+  padding: 1.5rem 2rem; 
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+  border-radius: 1rem;
+  position: absolute;
+  bottom: -9rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  transition: opacity 1s 1s;
+  opacity: 0;
+  z-index: 2; /* Ensure it's on top */
+}
+
+.card_desc {
+  display: block;
+  font-size: var(--small-font-size); 
+  margin-bottom: .25rem; 
+}
+.card_title {
+  font-size: var(--ha-font-size); 
+  font-weight: 500;
+  color: var(--title-color);
+  margin-bottom: .75rem;
+}
+
+.card_button{ 
+  text-decoration: none;
+  font-size: var(--small-font-size); 
+  Font-weight: 500;
+  color: var(--first-color);
+
+}
+  .card_button:hover{
+  text-decoration: underline;
+  }
+
+  .card_article:hover .card_data{
+    animation: show-data 1s forwards; 
+    opacity: 1;
+    transition: opacity .3s; 
+  }
+
+  .card_article:hover{ 
+    animation: remove-overflow 2s forwards; 
+  }
+    
+  .card__article:not(:hover){ 
+    animation: show-overflow 2s forwards;
+  }
+    .card_article:not(:hover) .card_data{
+    animation: remove-data 1s forwards;
+  }
+
+    /* Card animation */ 
+    @keyFrames show-data{
+    50%{
+      transform: translateY(-10rem);
+    }
+    100%{
+      transform: translateY(-7rem);
+    }
+    }
+    @keyframes remove-overflow{
+      to{
+      overflow: initial;
+      }
+    }
+
+    @keyFrames remove-data{
+      0%{
+        transform: translateY(-7rem);
+      }
+      50%{
+        transform: translateY(-10rem);
+      }
+      100%{
+        transform: translateY(.5rem);
+      }
+      }
+
+      @keyFrames show-overflow{
+        0%{
+          overflow: initial;
+          pointer-events: none;
+        }
+        50%{
+          overflow: hidden;
+        }
+      
+        }
+
+        @media screen and (max-width: 348px){ 
+          container{ 
+          margin-inline: 1rem;
+          }
+          .card_data{
+            width: 250px;
+            padding: 1rem;
+          }
+          
+        }
+
+        @media screen and (min-width: 768px){ 
+          .card_container{
+          grid-template-columns: repeat(2, 1fr);/*to make more than card*/
+          column-gap: 1.5rem; 
+          }
+
+        }
+
+
+      @media screen and (min-width: 1126px) {
+        .container{
+        height: 106vh;
+        height: auto; 
+        width: auto; 
+
+        }
+        
+        .card_container{
+        grid-template-columns: repeat(3, 1fr);
+        
+        }
+        .card_img{
+        width: 348px;
+      }
+        
+        .card_data{
+        width: 316px;
+        padding-inline: 2.5rem;
+        
+      }
+    } 
